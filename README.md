@@ -5,7 +5,7 @@ Download root data from
 https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml/data?select=HI-Large_Trans.csv
 
 
-The raw data has been cleaned and preprocessed through the "EDA & Preprocessing" Notebook and clean data has been stored in parquet format on the clean_data folder.
+The raw data has been cleaned and preprocessed through the "EDA & Preprocessing" Notebook and clean data has been stored in parquet format on the clean_data folder for better scalability. The results and other logs would also be found in results.txt file.
 
 # How to Run:
 # Git clone the repository
@@ -26,6 +26,12 @@ conda activate newenv
 ```bash
 pip install -r requirements.txt 
 ``` 
+
+
+# If not already enabled
+```bash
+export PYTHONUTF8=1
+```
 
 # To Run locally 
 ```bash
