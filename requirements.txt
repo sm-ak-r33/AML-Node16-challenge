@@ -1,0 +1,19 @@
+# Data manipulation
+pandas>=2.0
+numpy>=1.26
+
+# Machine learning
+scikit-learn>=1.3
+lightgbm>=4.0
+
+# Visualization (optional)
+matplotlib>=3.8
+seaborn>=0.12
+
+# For Parquet 
+fastparquet
+
+# For LGBM
+tabulate 
+ 
+ 
